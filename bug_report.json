@@ -1,24 +1,25 @@
 { 
-  "type":bug 
-  "bugID": {
+  "type":"bug "
+  "bugID": [
       "IDnumber": #123,
       "name": "CART - Unable to add new item to my cart",
       "reporter": "Juliya Vo",
       "submitData": 01/12/2022
-     },
-"summery": "............",
-"discriptions": ".........",
-"project": ".......",
-"component": "......",
- "details": {
-       "steps_to_reproduce": "........",
-       "expected_result": "......",
-       "actual_result": "......"
-     },
-"tracking": {
+     ],
+"summery": "When my cart contains one item, I am unable to add a second item via the add to cart button on a prodact page",
+"descriptions": "/",
+"project": "#12",
+"component": "/",
+"details": [
+       "steps_to_reproduce": "add one item to cart>go to product abc via the search bar>add new item to cart via "add to cart" button",
+       "expected_result": "the cart chould contains 2 item",
+       "actual_result": "the cart contains only 1 item"
+     ],
+"tracking": [
      "severity": "major",
      "priority": "high",
-     "assigned_to": "......"
-    }
+     "assigned_to": "/"
+    ]
 }
+
 
